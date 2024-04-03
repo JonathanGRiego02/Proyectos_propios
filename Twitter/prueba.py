@@ -3,10 +3,10 @@ from datetime import datetime
 
 # Coloca tus propias credenciales de la API de Twitter aquí
 #API
-consumer_key = 'n32nQPuP9BDwsK18Eu1nEZOR1'
-consumer_secret = 'VDCg9GWrO7kqSA4I4193VQ5H8UO2oMzLc7jQqiFSHzhzk8T1ql'
-access_token = '2412312549-kTbUxMSw1SbC6UEDUB5nztjPJNDzQ5DIlNDq424'
-access_token_secret = 'tzBc7LHpqQkoARqn1UzGnii9hVmsX55AER7H6YsqksJwP'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 # Configura las credenciales
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
