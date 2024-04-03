@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Piedra, papel, tijera 🪨🧻✂️</title>
+    <link rel="stylesheet" href="estilo_ppt.css">
+  </head>
+  
+  <body>
+    <div class="caja">
+      <header>Piedra, papel, tijera</header>
+      <button id="piedra" onclick="SeleccionarPiedra()">
+        <img src="/imagenes/piedra.png" alt="piedra enfadada" class="piedra_img">
+      </button>
+      <button id="papel" onclick="SeleccionarPapel()">
+        <img src="/imagenes/papel.png" alt="piedra enfadada" class="piedra_img">
+      </button> 
+      <button id="tijera" onclick="SeleccionarTijera()">
+        <img src="/imagenes/Tijera.png" alt="piedra enfadada" class="piedra_img">
+      </button>
+      <h1 id="ganador">JUGADOR 1 GANA</h1>  
+    </div>
+
+    <div class="reiniciar" onclick="reiniciar()" id="reiniciar">Empezar de nuevo</div>
+    <script src="scrip_ppt.js"></script>
+  </body>
+</html>
